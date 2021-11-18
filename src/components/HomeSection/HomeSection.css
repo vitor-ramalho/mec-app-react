@@ -22,3 +22,22 @@
 	font-size: 32px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.home-item{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.home-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

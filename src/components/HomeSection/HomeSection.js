@@ -14,6 +14,7 @@ const HomeSection = () => {
                         className="btns"
                         buttonStyle="btn--outline"
                         buttonSize="btn--large"
+                        to="/cadastro_oficina"
                     >
                         Oficina
                     </Button>
@@ -21,6 +22,7 @@ const HomeSection = () => {
                         className="btns"
                         buttonStyle="btn--outline"
                         buttonSize="btn--large"
+                        to="/cadastro_cliente"
                     >
                         Cliente
                     </Button>

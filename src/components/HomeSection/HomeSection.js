@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '../Button/Button';
 import './HomeSection.css';
 import '../../App.css';
+import { Link } from 'react-router-dom';
 
 const HomeSection = () => {
     return (
@@ -10,22 +11,18 @@ const HomeSection = () => {
                 <h1>Sua Oficina Mecânica <br /> Na <br /> Palma da Mão.</h1>
                 <p>Cadastre-se</p>
                 <div className="home-btns">
-                    <Button
-                        className="btns"
-                        buttonStyle="btn--outline"
-                        buttonSize="btn--large"
+                    <Link
+                        className="btn--outline btn--large btns"
                         to="/cadastro_oficina"
                     >
                         Oficina
-                    </Button>
-                    <Button
-                        className="btns"
-                        buttonStyle="btn--outline"
-                        buttonSize="btn--large"
+                    </Link>
+                    <Link
+                        className="btn--outline btn--large btns"
                         to="/cadastro_cliente"
                     >
                         Cliente
-                    </Button>
+                    </Link>
                 </div>
             </div>
             <div className="home-content">

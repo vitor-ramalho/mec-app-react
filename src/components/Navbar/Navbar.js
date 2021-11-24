@@ -46,7 +46,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <Link
-                            to="/"
+                            to="/cadastro_cliente"
                             className="nav-links"
                             onClick={closeMobileMenu}
                         >
@@ -54,7 +54,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Login</Button>}
+                {button && <Link to="/login_cliente" className='btn--outline'>Login</Link>}
             </div>
         </nav>
             
